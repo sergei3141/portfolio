@@ -1,0 +1,197 @@
+{
+  "header":{
+    "name": "Sergei",
+    "surname": "Bersenev",
+    "nav_1": "Home",
+    "nav_2": "About",
+    "nav_3": "Resume",
+    "nav_4": "Portfolio",
+    "nav_5": "Contacts"
+  },
+  "banner":{
+    "hello": "Hi there! I'm",
+    "profession": "Frontend Developer",
+    "aboutProfession": "Worked on projects for the Tashkent airport, the GlobalPay payment system, an online casino + Google Play clone, a training center, an online cinema and others.",
+    "language": "Language"
+  },
+  "aboutMe":{
+    "title": "About me",
+    "subtitle": "Biography, experience, interests",
+    "title_2": "",
+    "about": "I have been dedicated to front-end development since 2020. In December 2021, I received my first commercial offer (LeadRate Moscow), and in April 2022, I gained valuable experience working as a front-end developer in Tashkent. In 2023, I started working at the IT Step training center, and now I am actively engaged in freelancing and improving my skills.",
+    "about_2": "I have a higher education in a technical field. I am responsible. I have good communication skills. I am capable of self-learning, I am not afraid to explore new technologies and frameworks. In the long term, I aim to reach the Senior position.",
+    "info_1": "Date of birth:",
+    "info_2": "Phone:",
+    "info_3": "Mail:",
+    "info_4": "Citizen:",
+    "info_4_2": "Russia",
+    "info_5": "Adress:",
+    "info_5_2": "Tashkent, Uzbekistan",
+    "info_5_3": "Yunus Abad 19",
+    "info_6": "Languages:",
+    "info_6_2": "Rus, Eng (B2)"
+  },
+  "resume":{
+    "title": "Resume",
+    "subtitle": "Experience, education, skills",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+
+    "experience_1": {
+      "title": "TheDoctorsTeam",
+      "description": "Online cinema"
+    },
+    "experience_2": {
+      "title": "LeadRate, Global Solutions",
+      "description": "Uzbekistan Airports, Global Pay and other projects"
+    },
+    "experience_3": {
+      "title": "It-step Academy",
+      "description": "Training center"
+    },
+    "experience_4": {
+      "title": "Freelancing",
+      "description": "Teaching, Project work"
+    },
+    "education_1": {
+      "title": "RTU MIREA, Moscow",
+      "description": "Russian Technological Institute. Bachelor's degree"
+    },
+    "education_2": {
+      "title": "Udemy",
+      "description": "English-language educational platform"
+    },
+
+    "skils": "Навыки"
+  },
+  "portfolio":{
+    "title": "Portfolio",
+    "subtitle": "Projects",
+    "load": "View more on GitHub",
+    "role": "My role:"
+  },
+  "footer":{
+    "info": "Инфа"
+  },
+
+  "data":{
+    "project_0":{
+      "title":"Uzbekistan Airports",
+      "short_description":"News, tickets, charts",
+      "description_long":"<div><p></p><p>Developed a website for Uzbekistan Airports, providing users with a wide range of services, including:</p><ul><li><strong>Online flight booking</strong></li><li><strong>Viewing current flight schedules</strong></li><li><strong>Tracking the status of arrivals and departures in real-time</strong></li><li><strong>News feed, information about discounts, and special offers</strong></li><li><strong>'Tenders' section for publishing commercial offers and cooperation requests</strong></li></ul><p><strong>Key features:</strong></p><ul><li><strong>Multi-level administration system:</strong> Implemented a flexible website management system with differentiated access rights for moderators, administrators, and super administrators.</li><li><strong>Customizable news feeds and tenders:</strong> Implemented the ability for the customer to independently create news posts and tenders with custom designs using a WYSIWYG editor.</li><li><strong>Converting user actions into markup:</strong> Developed a solution for saving content created by the customer using a WYSIWYG editor as valid markup.</li></ul><p><strong>Technology stack:</strong></p><ul><li>React</li><li>i18n</li><li>antd</li><li>react-router-dom</li><li>WYSIWYG</li></ul><p><strong>Challenges and solutions:</strong></p><p>One of the technical challenges was implementing the ability for the customer to create content with custom designs. Traditionally, websites have fixed layouts. To solve this problem, a WYSIWYG editor was used, which converts user actions into valid markup and saves it in the required format.</p></div>",
+      "my_role":"In this project, I was responsible for developing the administrator panel, including the following tabs: irport statistics dashboard (displaying comprehensive airport statistics), news and tenders management (creating, editing, and publishing news and tenders using a WYSIWYG editor), <strong>user management (adding, editing, and managing users and their access permissions), and certificates page management (managing content and functionality of the certificates page).",
+      "web":"https://tashkent-airport.uz",
+      "technologies":"React, chartJS, antd, wysywig, n18i, axios",
+      "photo": {
+        "photo_0_title": "Statistics",
+        "photo_0_description": "Finances, flights, directions",
+        "photo_0_description_long": "The admin panel provides access to convenient viewing of airport statistics on more than a hundred parameters.",
+        "photo_1_title": "Departures-arrivals",
+        "photo_1_description": "Track flight status",
+        "photo_1_description_long": "Site visitors can track international and domestic flights online, as well as monitor flight statuses.",
+        "photo_2_title": "Personal account",
+        "photo_2_description": "Buy tickets online",
+        "photo_2_description_long": "The functionality of the personal account allows the user to book and buy tickets online, as well as receive notifications about personal offers.",
+        "photo_3_title": "Transactions",
+        "photo_3_description": "Full report and statistics",
+        "photo_3_description_long": "A full report on all transactions available to administrators helps collect and sort statistics using dozens of different filters."
+      }
+    },
+    "project_1":{
+      "title":"Global Pay",
+      "short_description":"Payment system",
+      "description_long":"<div><p> I was involved in the development of Global Pay, a comprehensive payment system offering convenient and secure solutions for individuals, entrepreneurs, as well as banks and credit organizations.</p><p><strong>Key Features:</strong><ul><li><strong>Telegram Payment Acceptance:</strong> User convenience and integration with popular messaging apps.</li><li><strong>Payment Processing:</strong> Support for a wide range of payment instruments, including Uzcard, Humo, Visa and Mastercard.</li><li><strong>Transaction Reporting:</strong> Transparency and control over financial operations.</li><li><strong>Open API:</strong> Flexible integration with various websites, applications and Telegram bots.</li></ul></p><p><strong>Technologies:</strong><ul><li><strong>React:</strong> Modern framework for building user interfaces.</li><li><strong>i18n:</strong> Support for multilingual localization.</li><li><strong>Ant Design:</strong> Component library for creating visually appealing interfaces.</li><li><strong>react-router-dom:</strong> Library for implementing routing in web applications.</li></ul></p><p><strong>Additional Information:</strong><ul><li><strong>User Management System Development:</strong> Ensuring security and access control to payment services.</li><li><strong>Integration with Payment Gateways:</strong> Secure processing of payments from various payment systems.</li></ul></p></div>",
+      "my_role": "Writing documentation for the open API (Creating a card token, requests for payment details, making refunds, etc.), working on the 'Developers' section and the 'Services' panel",
+      "web":"https://global.uz/global-pay",
+      "technologies":"React, antd",
+      "photo": {
+        "photo_0_title": "Home",
+        "photo_0_description": "GlobalPay website appearance",
+        "photo_0_description_long": "Appearance. Animation implemented.",
+        "photo_1_title": "Menu",
+        "photo_1_description": "Main navigation sections",
+        "photo_1_description_long": "Main navigation sections",
+        "photo_2_title": "Integration",
+        "photo_2_description": "with third-party services",
+        "photo_2_description_long": "Integration with third-party services",
+        "photo_3_title": "For developers",
+        "photo_3_description": "Open API documentation",
+        "photo_3_description_long": "Documentation for open API (Creating a card token, requests for payment details, issuing refunds, etc.)"
+      }
+    },
+    "project_2":{
+      "title":"",
+      "short_description":"",
+      "description_long":"<div><h5 >IT GO: Development of a comprehensive educational platform</h5><p>I participated in the development of IT GO, a multifunctional online platform for an educational center that combines the functions of a business card website and an LMS system. </p><h5 >Platform Features:</h5><ul><li><b>For potential students:</b><ul><li>Familiarization with courses and training programs</li><li>Applying for training</li></ul></li><li><b>For registered students:</b><ul><li>Access to personal account</li><li>View account balance</li><li>Track learning progress</li><li>Access to learning materials</li><li>Performing and automatically checking homework</li></ul></li><li><b>For teachers:</b><ul><li>Recording and publishing lessons</li><li>Scheduling classes</li><li>Tracking student attendance</li><li>Checking progress and monitoring knowledge</li></ul></li><li><b>For administrators:</b><ul><li>Creating and editing courses</li><li>Schedule management </li><li>Editing student information</li><li>View balances and student transactions</li></ul></li></ul><h5 >Key Feature:</h5><p>One of the key features of the platform is the integration of the code editor with the system of automatic verification of solutions based on Judge0. This allowed students to perform practical tasks directly on the platform and receive instant feedback on the correctness of their code.</p><h5 >Technologies:</h5><ul><li>Backend: Laravel (PHP), MySQL</li><li>Frontend: React, Ant Design</li><li>Code Checking System: Judge0 </li></ul></div>",
+      "my_role": "Completely my commercial project",
+      "web":"https://it-go.su",
+      "technologies":"Laravel (PHP), MySQL, React, Ant Design, Система компиляции кода Judge0",
+      "photo": {
+        "photo_0_title": "Landing page",
+        "photo_0_description": "User-friendly navigation design",
+        "photo_0_description_long": "Upon entering the site, the client can familiarize themselves with current courses, schedules, prices, and also learn basic information about the training center.",
+        "photo_1_title": "Code editor",
+        "photo_1_description": "for checking assignments online",
+        "photo_1_description_long": "Code editor - implemented using Judge0, deployed on a server. Students can complete assignments at any convenient time and receive instant results.",
+        "photo_2_title": "Admin panel",
+        "photo_2_description": "convenient site management",
+        "photo_2_description_long": "Courses, prices, students, schedule, assignments, statistics, financial indicators, class materials, and much more...",
+        "photo_3_title": "Integration",
+        "photo_3_description": "with Telegram bot (notifications)",
+        "photo_3_description_long": "Provided, but unfortunately, it is not currently functioning :("
+      }
+    },
+    "project_3":{
+      "title":"TDT online cinema",
+      "short_description":"",
+      "description_long":"<div><p><strong>Description:</strong> TDT Online Cinema is a web application that provides users access to a vast library of popular animated series. The project was developed with a focus on performance and clean code. </p><p><strong>Key responsibilities and achievements:</strong><ul><li>Developed a dynamic user interface, enabling users to easily browse the series catalog, view information about series and episodes, and manage video playback.</li><li>Implemented a search system by series title, genre, year of release, and other parameters.</li><li>Integrated a video player with options for video quality selection, subtitles, and playback speed control.</li><li>Optimized the web application's performance to ensure fast loading and smooth video playback even with slow internet connections.</li></ul></p><p><strong>Technical details:</strong> A key feature of the project is its implementation using pure JavaScript (Vanilla JS) without the use of external libraries or frameworks. This decision was made at the customer's request and allowed for maximum performance and complete control over the codebase.</p></div>",
+      "my_role":"Markup of the homepage and project pages according to given mockups. Implementation of required functionality (slider, carousel, pagination) using pure JavaScript.",
+      "web":"https://thedoctorteam.ru/",
+      "technologies":"JavaScript, HTML, CSS",
+      "photo": {
+        "photo_0_title": "Filter",
+        "photo_0_description": "by year, genre, and title",
+        "photo_0_description_long": "Example of filter implementation allowing users to find movies they are interested in",
+        "photo_1_title": "Personal account",
+        "photo_1_description": "Available by subscription",
+        "photo_1_description_long": "Save selections of your favorite movies and TV series",
+        "photo_2_title": "Home",
+        "photo_2_description": "New releases and popular projects",
+        "photo_2_description_long": "On the homepage, the user has the opportunity to familiarize themselves with new releases and projects gaining popularity on the site (by number of views)",
+        "photo_3_title": "Video player",
+        "photo_3_description": "With synchronous language change",
+        "photo_3_description_long": "Page for viewing and downloading episodes/movies"
+      }
+    },
+    "project_4":{
+      "title":"Social Network",
+      "short_description":"Unnamed project",
+      "description_long":"<div><p><strong>Project Status:</strong> Development</p><p><strong>Description:</strong> Social Network is a project for a modern social network with extended capabilities for corporate interaction. In addition to traditional functionality (newsfeed, comments, reposts), the platform will offer tools for event planning, meeting organization, and collaborative project work. The release date is not yet determined.</p><p><strong>Key Features:</strong></p><ul><li><strong>Hybrid Platform:</strong> Combines social network features with tools for teamwork.</li><li><strong>Real-time Interaction:</strong> WebSocket connection is implemented for instant messaging and creating a dynamic interaction experience.</li><li><strong>Video and Audio Conferencing Integration:</strong> A convenient solution for conducting online meetings and virtual collaboration will be introduced in the near future.</li></ul></div>",
+      "my_role":"Mentor and Front-end Development. I am responsible for creating the architecture of the client-side application using React + Redux Toolkit. I ensure the high quality of tasks completed by the student, aimed at creating a user-friendly and efficient user experience.",
+      "web":"",
+      "technologies":"JavaScript, HTML, CSS",
+      "photo": {
+        "photo_0_title": "Home",
+        "photo_0_description": "News feed and profile",
+        "photo_0_description_long": "On the homepage, the user can view the feed, create posts, see recent friend activity and news",
+        "photo_1_title": "Events",
+        "photo_1_description": "Plan and learn",
+        "photo_1_description_long": "Plan and learn about upcoming events through Events directly in the app. Convenient sorting will give you opportunities for flexible time planning.",
+        "photo_2_title": "Messages",
+        "photo_2_description": "Business and personal correspondence",
+        "photo_2_description_long": "Business and personal correspondence",
+        "photo_3_title": "Settings",
+        "photo_3_description": "Convenient account management",
+        "photo_3_description_long": "Convenient account management. Notification settings and personal information changes."
+      }
+    },
+    "project_5":{
+      "title":"LeadRate",
+      "short_description":"Media buying agency",
+      "description_long":"<div><p><strong>Project Task and Description: </strong></p><p>Developing an online casino while minimizing the risks of negative indexing by search engines and addressing the issue of app removal from PlayMarket.</p><p><b> Solution:</b></p><ul><li><strong>Creating a PlayMarket Simulation: </strong> A custom copy of PlayMarket was developed, visually indistinguishable from the original. Users clicking on the link believed they were downloading the official app, while in reality, they were downloading our PWA.</li><li><strong>Implementing 'Cloaking': </strong> A 'cloaking' system was implemented to display different content to search engine bots and real users. Search engine bot IP databases were used to provide safe content, while real users were directed to the casino page with links to a fake GooglePlay.</li></ul><br><strong>Result:</strong><br><ul><li>The online casino operates stably, bypassing the official PlayMarket.</li><li> Positive indexing by search engines has been achieved.</li></ul></p></div>",
+      "my_role":"Implemented a cloaking system and prepared it for linking to the web crawler IP address database. He took part in the development and layout of some elements of the application and the fake Play Market. Solved the problem of fast downloading of PWA in comparison with .apk (fake download with a delay, based on the user's Internet speed)",
+      "technologies":"JavaScript, Cloacking, PWA"
+    }
+  }
+}
