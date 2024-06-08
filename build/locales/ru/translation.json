@@ -1,0 +1,93 @@
+{
+  "header":{
+    "name": "Сергей",
+    "surname": "Берсенев",
+    "nav_1": "Домашняя страница",
+    "nav_2": "О нас",
+    "nav_3": "Резюме",
+    "nav_4": "Портфолио",
+    "nav_5": "Контакты"
+  },
+  "banner":{
+    "hello": "Приветствую!",
+    "profession": "Фронтенд-разработчик",
+    "aboutProfession": "",
+    "language": "Язык сайта:"
+  },
+  "aboutMe":{
+    "title": "Обо мне",
+    "subtitle": "dede",
+    "title_2": "",
+    "about": "",
+    "info_1": "Дата рождения:",
+    "info_2": "Телефон:",
+    "info_3": "Почта",
+    "info_4": "Гражданство",
+    "info_5": "Адрес",
+    "info_6": "Языки"
+  },
+  "resume":{
+    "title": "Резюме",
+    "subtitle": "dede",
+    "experience_1":{
+      "title":"",
+      "description":""
+    },
+    "experience_2":{
+      "title":"",
+      "description":""
+    },
+    "experience_3":{
+      "title":"",
+      "description":""
+    },
+    "experience_4":{
+      "title":"",
+      "description":""
+    },
+    "education_1":{
+      "title":"",
+      "description":""
+    },
+    "education_2":{
+      "title":"",
+      "description":""
+    },
+    "skils": "Навыки"
+  },
+  "portfolio":{
+    "title": "Обо мне",
+    "subtitle": "dede",
+    "project_1":{
+      "title":"",
+      "short_description":"",
+      "description":""
+    },
+    "project_2":{
+      "title":"",
+      "short_description":"",
+      "description":""
+    },
+    "project_3":{
+      "title":"",
+      "short_description":"",
+      "description":""
+    },
+    "project_4":{
+      "title":"",
+      "short_description":"",
+      "description":""
+    },
+    "load": "Посмотреть ещё"
+  },
+  "contacts":{
+    "adress": "Адрес",
+    "adress_info": "Юнусабад 19 Ташкент, Узбекистан",
+    "phome": "Телефон",
+    "mail": "Почта"
+
+  },
+  "footer":{
+    "info": "Инфа"
+  }
+}
