@@ -5,9 +5,14 @@
 	var $body = $('body'); 
 	
 	/* Preloader Effect */
-	$window.on( "load", function() {
-	   $(".preloader").fadeOut(600);
+    $(window).on('load', function() {
+        setTimeout(function() {
+            $('.preloader').fadeOut(600, function() { 
+                $('.preloader').remove(); //  Удаляем  preloader  из  DOM  только  после  того,  как  fadeOut  закончится
+            }); 
+        }, 1000); // Задержка 1 секунда, чтобы прелоадер отображался
     });
+
 	
 	/* slick nav */
 	$('#main-menu').slicknav({prependTo:'#responsive-menu',label:'', closeOnClick:true});
