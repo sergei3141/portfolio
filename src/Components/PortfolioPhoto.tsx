@@ -7,7 +7,6 @@ interface PortfolioPhotoProps {
 }
 
 const PortfolioPhoto: React.FC<PortfolioPhotoProps> = ({ index, id }) => {
-debugger
   const { t } = useTranslation();
 
   const [isEnlarged, setIsEnlarged] = useState(false);

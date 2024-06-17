@@ -885,9 +885,10 @@ header .navbar.sticky-header{
 }
 
 .team-img-text{
-	margin: 5px 20px;
+	padding: 5px 20px;
 	text-align: center;
 	font-size: 8px;
+	background-color: #111111;
 }
 
 .shadow{

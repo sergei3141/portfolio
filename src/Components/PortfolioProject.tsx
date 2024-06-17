@@ -14,7 +14,7 @@ function PortfolioProject() {
 
   const { id } = useParams();
   const idNumber = Number(id);
-debugger
+
   return (
     <>
       <section className="about-us" id="portfolio">
